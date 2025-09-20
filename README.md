@@ -1,359 +1,223 @@
-TradeDock is a full-stack, demo-grade trading platform inspired by Zerodha.
-Built for learning and portfolio demo purposes — NOT for real trading.
-Use at your own risk. Sensitive financial or regulatory features (real money, order routing to exchanges, KYC, etc.) are intentionally omitted.
+📈 TradeDock — Zerodha Clone (Full-Stack)
 
-Table of contents
+💡 TradeDock is a full-stack, demo-grade trading platform inspired by Zerodha.
+⚠️ Built for learning & portfolio demo purposes only — NOT for real trading.
 
-Project overview
+📑 Table of contents
 
-Live demo / Screenshots
+📝 Project overview
 
-Key features
+🌐 Live demo / Screenshots
 
-Tech stack
+✨ Key features
 
-Architecture
+🛠️ Tech stack
 
-Getting started (local development)
+🏗️ Architecture
 
-Environment variables
+⚡ Getting started (local development)
 
-Database setup & seed
+🔑 Environment variables
 
-Running tests
+🗄️ Database setup & seed
 
-API reference (examples)
+✅ Running tests
 
-Deployment
+📡 API reference (examples)
 
-Security & disclaimers
+🚀 Deployment
 
-Contributing
+🔒 Security & disclaimers
 
-License & credits
+🤝 Contributing
 
-Contact
+📜 License & credits
 
-Project overview
+📬 Contact
 
-TradeDock is a learning/presentation project that simulates a trading platform experience similar to Zerodha: user registration & auth, portfolio view, watchlist, placing simulated orders (market/limit), charting (mock/candles), order book, and trade history. The app is intended for students and developers to study a full-stack implementation of trading UI, websockets/real-time updates (simulated), and backend order handling.
+📝 Project overview
 
-Live demo / Screenshots
+TradeDock simulates a trading platform experience like Zerodha:
+👤 User registration & login, 📊 portfolio view, 📝 order history, 📈 charts, and 🔔 real-time updates (simulated).
 
-Placeholder: Replace with your hosted demo URL and screenshots.
+Perfect for students & developers to practice full-stack app building.
 
-Demo: https://your-demo-url.example.com
+🌐 Live demo / Screenshots
 
-Screenshots folder: /assets/screenshots/
+🔗 Demo URL: https://your-demo-url.example.com
+🖼️ Screenshots stored in /assets/screenshots/
 
-Add GIF or short clip of placing an order and portfolio update.
+✨ Key features
 
-Key features
+🔐 JWT-based user authentication
 
-User authentication (JWT + refresh tokens)
+📊 Dashboard: holdings, P&L, watchlist
 
-Interactive dashboard: portfolio, P&L, holdings
+💹 Place simulated orders (market, limit, cancel)
 
-Watchlist & market data feed (simulated)
+📜 Order history & trade blotter
 
-Place simulated orders: market, limit, cancel
+📈 Candlestick chart integration
 
-Order history & trade blotter
+🔔 WebSocket-based price updates
 
-Candlestick chart integration (placeholder for chart library)
+🛠️ RESTful backend API
 
-WebSocket/mocked real-time price feed
+📦 Docker + docker-compose setup
 
-Role-based access & admin panel (seeded users)
+🛠️ Tech stack
 
-RESTful backend API + client-side React hooks
+🎨 Frontend
 
-Docker + docker-compose setup for full-stack run
+⚛️ React (Vite / CRA)
 
-Tech stack
+🧭 React Router
 
-Frontend
+🗂️ Redux / Zustand / React Query
 
-React (Vite or Create React App)
+📊 Chart.js / Recharts / TradingVue
 
-React Router
+🎨 TailwindCSS / SCSS
 
-Redux / Zustand (or React Query) for state
+⚙️ Backend
 
-Charting: Chart.js / Recharts / TradingVue (placeholder)
+🟢 Node.js + Express
 
-CSS: Tailwind / SASS / CSS Modules
+🔌 WebSocket (ws / socket.io)
 
-Backend
+🗄️ PostgreSQL / MySQL
 
-Node.js + Express (or NestJS)
+🔐 JWT Auth
 
-WebSocket: ws / socket.io
+🧪 Jest / Supertest
 
-ORM: Prisma / Sequelize / TypeORM (or raw SQL)
+🧰 Dev tooling
 
-Auth: JWT
+🐳 Docker & docker-compose
 
-DB: PostgreSQL (recommended) or MySQL / SQLite for dev
+📏 ESLint + Prettier
 
-Tests: Jest / Supertest
+⚡ GitHub Actions CI
 
-Dev tooling
+🏗️ Architecture
+🖥️ React Client  <---- REST / WS ---->  🟢 Express API  <----> 🗄️ PostgreSQL
+                                                  \
+                                                   📡 Market Simulator
 
-Docker & docker-compose
+⚡ Getting started (local development)
 
-ESLint, Prettier
+1️⃣ Clone repo
 
-GitHub Actions (optional CI)
-
-Architecture
-[React (client)] <--REST/WS--> [Express API server] <---> [Postgres DB]
-                                          \
-                                           `--> Simulated Market Engine (WS feed / price generator)
-
-Getting started (local development)
-
-Assumes node and docker installed. Replace package manager commands (npm) with yarn if you prefer.
-
-Clone
-
-git clone https://github.com/<your-username>/tradedock.git
+git clone - get link on code section.
 cd tradedock
 
 
-Create .env files
+2️⃣ Create .env files (see below)
 
-Create .env in the root for backend (see section below).
+3️⃣ Run with Docker 🐳
 
-Create .env or use REACT_APP_ prefixed vars for frontend.
-
-Start with Docker (recommended)
-
-# builds app + db + market-sim
 docker-compose up --build
 
 
-This will start:
+🌍 Frontend: http://localhost:3000
 
-Backend at http://localhost:4000
+🔙 Backend: http://localhost:4000
 
-Frontend at http://localhost:3000
+🗄️ Database: localhost:5432
 
-Postgres at localhost:5432
-
-Or run services locally (no Docker)
-
-# backend
-cd server
-npm install
-cp .env.example .env        # fill values
-npm run dev                 # nodemon/ts-node
-
-# frontend
-cd ../client
-npm install
-cp .env.example .env        # fill values
-npm run dev                 # Vite/React dev server
-
-Environment variables
-Backend .env (example)
-# server/.env
+🔑 Environment variables
+Backend .env
 PORT=4000
 NODE_ENV=development
-
-# JWT
 JWT_ACCESS_SECRET=supersecret_access_key
 JWT_REFRESH_SECRET=supersecret_refresh_key
-ACCESS_TOKEN_EXPIRES_IN=15m
-REFRESH_TOKEN_EXPIRES_IN=7d
-
-# Database (Postgres example)
 DATABASE_URL=postgresql://postgres:password@db:5432/tradedock
-
-# Websocket / market sim
 MARKET_SIM_ENABLED=true
 
-Frontend .env (example)
-# client/.env
+Frontend .env
 REACT_APP_API_URL=http://localhost:4000/api
 REACT_APP_WS_URL=ws://localhost:4000
-REACT_APP_ENV=development
 
-Database setup & seed
+🗄️ Database setup & seed
 
-If using Docker, the DB will be created automatically. For local Postgres:
+📦 docker-compose auto-creates DB
 
-Create DB
+Or manually create:
 
 createdb tradedock
-
-
-Run migrations (Prisma example)
-
-cd server
 npx prisma migrate dev --name init
-npx prisma db seed      # if seed script configured
+npx prisma db seed
 
 
-Seed sample users & instruments
-Add a seed script that creates:
+Seed users:
+👤 demo@tradedock.test / Demo123
+👤 admin@tradedock.test / Admin123
 
-Admin user: admin@tradedock.test / password: Admin123
+✅ Running tests
 
-Demo user: demo@tradedock.test / password: Demo123
-
-Instruments table with sample tickers (e.g., AAPL, INFY, TCS) and initial prices.
-
-SQL seed example
-
-INSERT INTO users (email, password_hash, role) VALUES ('demo@tradedock.test', '<bcrypt-hash>', 'user');
-INSERT INTO instruments (symbol, name, price) VALUES ('AAPL', 'Apple Inc', 175.25);
-
-Running tests
-
-Backend unit & integration tests (Jest + Supertest):
+Backend 🧪
 
 cd server
 npm run test
 
 
-Frontend tests (React Testing Library):
+Frontend 🧪
 
 cd client
 npm run test
 
-API reference (examples)
+📡 API reference (examples)
 
-Base: POST /api/auth/login etc. Example endpoints:
+🔑 POST /api/auth/register
 
-Auth
+🔑 POST /api/auth/login
 
-POST /api/auth/register — register user { name, email, password }
+📈 GET /api/instruments
 
-POST /api/auth/login — login returns { accessToken, refreshToken }
+📝 POST /api/orders
 
-POST /api/auth/refresh — refresh access token
+📊 GET /api/portfolio
 
-POST /api/auth/logout — revoke refresh token
+WebSocket:
 
-Market / instruments
+📡 Subscribe to price feed
 
-GET /api/instruments — list instruments & last price
+🔔 Receive order status updates
 
-GET /api/instruments/:symbol — instrument detail
+🚀 Deployment
 
-Orders
+⚛️ Deploy frontend to Netlify/Vercel
 
-POST /api/orders — place order { symbol, side, type, qty, price? }
+🟢 Deploy backend to Render/Heroku/AWS
 
-GET /api/orders — user order history
+🐳 Use Docker for containerized deployment
 
-POST /api/orders/:id/cancel — cancel order
+🔒 Security & disclaimers
 
-Portfolio
+⚠️ Demo only, NOT for real trading
 
-GET /api/portfolio — holdings & P&L
+🔐 Passwords stored securely (bcrypt)
 
-GET /api/trades — executed trades
+🔑 JWT tokens with refresh system
 
-WebSocket
+🌍 Use HTTPS in production
 
-Connect to ws endpoint for real-time price updates and order updates. Example message types:
+🤝 Contributing
 
-subscribe { type: 'subscribe', symbols: ['AAPL'] }
+🍴 Fork repo
 
-order:update (server -> client) for order state changes
+🌱 Create feature branch
 
-Make sure to protect endpoints with JWT middleware for authenticated routes.
+🛠️ Commit changes
 
-Example order flow (simulated)
+📤 Open PR
 
-Client places order POST /api/orders.
+📜 License & credits
 
-Backend validates, creates order in DB with status pending.
+📄 MIT License
+🙏 Inspired by Zerodha (UI/UX reference only).
 
-Market simulator (or matching engine) processes orders and emits order:executed or order:partially_filled over WebSocket.
+📬 Contact
 
-Client receives WS event and updates UI (portfolio & order book).
-
-Deployment
-
-Typical workflow:
-
-Build frontend: npm run build (client)
-
-Serve frontend via static host (Netlify/Vercel) or serve build from backend (Express static middleware).
-
-Deploy backend to Heroku / Render / AWS / DigitalOcean. Use managed Postgres.
-
-Use environment variables on the host, and ensure WebSocket support where needed.
-
-Docker compose (prod)
-
-Create docker-compose.prod.yml with proper volumes, secrets, and NODE_ENV=production.
-
-Use docker stack deploy or cloud container services.
-
-Security & disclaimers
-
-TradeDock is a demo; DO NOT connect it to real broker APIs or use with real funds.
-
-Passwords must be hashed (bcrypt) and never stored as plain text.
-
-Use HTTPS and secure cookies in production.
-
-Rotate JWT secrets and use secure refresh token storage.
-
-Comply with legal regulations before integrating with real financial services.
-
-Contributing
-
-Contributions welcome!
-
-Fork repo ➜ create feature branch ➜ open PR with description.
-
-Follow code style (ESLint + Prettier).
-
-Write tests for new features.
-
-Use issues for feature requests / bugs.
-
-Suggested labels:
-
-good first issue — easy onboarding tasks
-
-enhancement — new feature proposals
-
-bug — unexpected behavior
-
-Roadmap / Ideas
-
-Integrate real market data (public sandbox APIs) — with strict disclaimers.
-
-Add chart indicators (SMA, EMA, RSI).
-
-Paper trading with virtual currency.
-
-Multi-currency support.
-
-Performance & load testing for matching engine.
-
-Known limitations
-
-Not production-ready for real trading.
-
-Market feed is simulated by default.
-
-No KYC / payment rails.
-
-Not audited for security or regulatory compliance.
-
-License & credits
-
-MIT License — see LICENSE file.
-Inspired by popular retail broker UIs (e.g., Zerodha) for learning and demonstration purposes.
-
-Contact
-
-Created by: Anish Raj
-Email: anishrajyadav97@gmail.com
+👤 Author: Anish Raj
+📧 Email: anishrajyadav97@gmail.com
