@@ -15,7 +15,7 @@
 
 🏗️ Architecture
 
-⚡ Getting started (local development)
+⚡ Getting started (local development) -
 
 🔑 Environment variables
 
