@@ -91,7 +91,7 @@ Perfect for students & developers to practice full-stack app building.
 
 🧪 Jest / Supertest
 
-🧰 Dev tooling
+🧰 Dev toolings
 
 🐳 Docker & docker-compose
 
