@@ -17,7 +17,7 @@
 
 ⚡ Getting started (local development) -
 
-🔑 Environment variables
+🔑 Environment variable
 
 🗄️ Database setup & seed
 
