@@ -13,7 +13,7 @@
 
 🛠️ Tech stack
 
-🏗️ Architecture
+🏗️ Architectures
 
 ⚡ Getting started (local development) -
 
