@@ -8,7 +8,6 @@
 📝 Project overview
 
 🌐 Live demo / Screenshots
-
 ✨ Key features
 🛠️ Tech stack
 🏗️ Architectures
