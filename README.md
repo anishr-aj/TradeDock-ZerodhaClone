@@ -10,11 +10,8 @@
 ✨ Key features
 🛠️ Tech stack
 🏗️ Architectures
-
 ⚡ Getting started (local development) -
-
 🔑 Environment variable
-
 🗄️ Database setup & seed
 
 ✅ Running tests
