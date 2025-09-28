@@ -12,7 +12,6 @@
 ✨ Key features
 
 🛠️ Tech stack
-
 🏗️ Architectures
 
 ⚡ Getting started (local development) -
