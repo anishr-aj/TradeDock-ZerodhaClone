@@ -98,11 +98,8 @@ docker-compose up --build
 
 
 🌍 Frontend: http://localhost:3000
-
 🔙 Backend: http://localhost:4000
-
 🗄️ Database: localhost:5432
-
 🔑 Environment variables
 Backend .env
 PORT=4000
