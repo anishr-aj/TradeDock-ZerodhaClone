@@ -15,19 +15,12 @@
 🗄️ Database setup & seed
 
 ✅ Running tests
-
 📡 API reference (examples)
-
 🚀 Deployment
-
 🔒 Security & disclaimers
-
 🤝 Contributing
-
 📜 License & credits
-
 📬 Contact
-
 📝 Project overview
 
 TradeDock simulates a trading platform experience like Zerodha:
