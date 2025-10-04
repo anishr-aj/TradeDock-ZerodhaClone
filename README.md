@@ -88,10 +88,7 @@ Perfect for students & developers to practice full-stack app building.
 
 git clone - get link on code section.
 cd tradedock
-
-
 2️⃣ Create .env files (see below)
-
 3️⃣ Run with Docker 🐳
 
 docker-compose up --build
@@ -142,15 +139,10 @@ cd client
 npm run test
 
 📡 API reference (examples)
-
 🔑 POST /api/auth/register
-
 🔑 POST /api/auth/login
-
 📈 GET /api/instruments
-
 📝 POST /api/orders
-
 📊 GET /api/portfolio
 
 WebSocket:
