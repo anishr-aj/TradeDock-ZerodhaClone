@@ -32,21 +32,13 @@ Perfect for students & developers to practice full-stack app building.
 
 🔗 Demo URL: https://your-demo-url.example.com
 🖼️ Screenshots stored in /assets/screenshots/
-
 ✨ Key features
-
 🔐 JWT-based user authentication
-
 📊 Dashboard: holdings, P&L, watchlist
-
 💹 Place simulated orders (market, limit, cancel)
-
 📜 Order history & trade blotter
-
 📈 Candlestick chart integration
-
 🔔 WebSocket-based price updates
-
 🛠️ RESTful backend API
 
 📦 Docker + docker-compose setup
