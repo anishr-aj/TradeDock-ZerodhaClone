@@ -67,9 +67,7 @@ Perfect for students & developers to practice full-stack app building.
 
 🧰 Dev toolings
 🐳 Docker & docker-compose
-
 📏 ESLint + Prettier
-
 ⚡ GitHub Actions CI
 
 🏗️ Architecture
