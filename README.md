@@ -69,14 +69,12 @@ Perfect for students & developers to practice full-stack app building.
 🐳 Docker & docker-compose
 📏 ESLint + Prettier
 ⚡ GitHub Actions CI
-
 🏗️ Architecture
 🖥️ React Client  <---- REST / WS ---->  🟢 Express API  <----> 🗄️ PostgreSQL
                                                   \
                                                    📡 Market Simulator
 
 ⚡ Getting started (local development)
-
 1️⃣ Clone repo
 
 git clone - get link on code section.
