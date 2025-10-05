@@ -40,9 +40,7 @@ Perfect for students & developers to practice full-stack app building.
 📈 Candlestick chart integration
 🔔 WebSocket-based price updates
 🛠️ RESTful backend API
-
 📦 Docker + docker-compose setup
-
 🛠️ Tech stack
 
 🎨 Frontend
