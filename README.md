@@ -68,7 +68,6 @@ Perfect for students & developers to practice full-stack app building.
 🧪 Jest / Supertest
 
 🧰 Dev toolings
-
 🐳 Docker & docker-compose
 
 📏 ESLint + Prettier
