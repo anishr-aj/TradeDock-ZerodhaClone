@@ -149,7 +149,6 @@ WebSocket:
 ⚠️ Demo only, NOT for real trading
 
 🔐 Passwords stored securely (bcrypt)
-
 🔑 JWT tokens with refresh system
 🌍 Use HTTPS in production
 🤝 Contributing
