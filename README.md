@@ -165,7 +165,6 @@ WebSocket:
 
 📄 MIT License
 🙏 Inspired by Zerodha (UI/UX reference only).
-
 📬 Contact
 
 👤 Author: Anish Raj
