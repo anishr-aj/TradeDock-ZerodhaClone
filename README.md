@@ -156,11 +156,8 @@ WebSocket:
 🌍 Use HTTPS in production
 
 🤝 Contributing
-
 🍴 Fork repo
-
 🌱 Create feature branch
-
 🛠️ Commit changes
 
 📤 Open PR
