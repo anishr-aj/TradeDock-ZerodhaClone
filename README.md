@@ -144,7 +144,6 @@ WebSocket:
 🟢 Deploy backend to Render/Heroku/AWS
 
 🐳 Use Docker for containerized deployment
-
 🔒 Security & disclaimers
 
 ⚠️ Demo only, NOT for real trading
