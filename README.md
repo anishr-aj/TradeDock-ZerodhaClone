@@ -44,7 +44,6 @@ Perfect for students & developers to practice full-stack app building.
 🛠️ Tech stack
 
 🎨 Frontend
-
 ⚛️ React (Vite / CRA)
 🧭 React Router
 🗂️ Redux / Zustand / React Query
