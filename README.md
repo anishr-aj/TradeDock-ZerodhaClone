@@ -151,7 +151,6 @@ WebSocket:
 🔐 Passwords stored securely (bcrypt)
 
 🔑 JWT tokens with refresh system
-
 🌍 Use HTTPS in production
 🤝 Contributing
 🍴 Fork repo
