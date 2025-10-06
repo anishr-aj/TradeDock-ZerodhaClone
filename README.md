@@ -134,7 +134,6 @@ npm run test
 
 WebSocket:
 
-📡 Subscribe to price feed
 
 🔔 Receive order status updates
 
