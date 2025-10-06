@@ -154,7 +154,6 @@ WebSocket:
 🔑 JWT tokens with refresh system
 
 🌍 Use HTTPS in production
-
 🤝 Contributing
 🍴 Fork repo
 🌱 Create feature branch
