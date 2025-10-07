@@ -59,7 +59,6 @@ Perfect for students & developers to practice full-stack app building.
 🗄️ PostgreSQL / MySQL
 🔐 JWT Auth
 🧪 Jest / Supertest
-
 🧰 Dev toolings
 🐳 Docker & docker-compose
 📏 ESLint + Prettier
