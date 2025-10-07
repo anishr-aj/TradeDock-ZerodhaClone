@@ -152,7 +152,6 @@ WebSocket:
 🛠️ Commit changes
 
 📤 Open PR
-
 📜 License & credits
 
 📄 MIT License
