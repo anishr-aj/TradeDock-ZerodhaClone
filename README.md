@@ -55,7 +55,6 @@ Perfect for students & developers to practice full-stack app building.
 ⚙️ Backend
 
 🟢 Node.js + Express
-
 🔌 WebSocket (ws / socket.io)
 🗄️ PostgreSQL / MySQL
 🔐 JWT Auth
