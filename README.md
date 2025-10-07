@@ -87,7 +87,7 @@ PORT=4000
 NODE_ENV=development
 JWT_ACCESS_SECRET=supersecret_access_key
 JWT_REFRESH_SECRET=supersecret_refresh_key
-DATABASE_URL=postgresql://postgres:password@db:5432/tradedock
+DATABASE_URL=postgresql://postgres:password@db:5432/tradedock 
 MARKET_SIM_ENABLED=true
 
 Frontend .env
