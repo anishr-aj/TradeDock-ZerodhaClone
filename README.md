@@ -112,7 +112,6 @@ Seed users:
 ✅ Running tests
 
 Backend 🧪
-
 cd server
 npm run test
 
