@@ -7,7 +7,7 @@
 
 📝 Project overview 
 🌐 Live demo / Screenshots 
-✨ Key features
+✨ Key features 
 🛠️ Tech stack 
 🏗️ Architectures  
 ⚡ Getting started (local development) -
