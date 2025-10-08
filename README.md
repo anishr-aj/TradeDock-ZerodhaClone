@@ -53,7 +53,6 @@ Perfect for students & developers to practice full-stack app building.
 🎨 TailwindCSS / SCSS
 
 ⚙️ Backend
-
 🟢 Node.js + Express
 🔌 WebSocket (ws / socket.io)
 🗄️ PostgreSQL / MySQL
