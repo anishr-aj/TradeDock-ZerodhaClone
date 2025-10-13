@@ -22,7 +22,7 @@
 📜 License & credits
 📬 Contact
 📝 Project overview
-
+ 
 TradeDock simulates a trading platform experience like Zerodha:
 👤 User registration & login, 📊 portfolio view, 📝 order history, 📈 charts, and 🔔 real-time updates (simulated).
 
