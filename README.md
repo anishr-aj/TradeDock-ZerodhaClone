@@ -26,7 +26,7 @@
 TradeDock simulates a trading platform experience like Zerodha:
 👤 User registration & login, 📊 portfolio view, 📝 order history, 📈 charts, and 🔔 real-time updates (simulated).
 
-Perfect for students & developers to practice full-stack app building.
+Perfect for students & developers to practice full-stack app building. 
 
 🌐 Live demo / Screenshots
 
