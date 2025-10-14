@@ -8,7 +8,7 @@
 📝 Project overview  
 🌐 Live demo / Screenshots  
 ✨ Key features     
-🛠️ Tech stack     
+🛠️ Tech stack      
 🏗️ Architectures     
 ⚡ Getting started (local development) -       
 🔑 Environment variable    
