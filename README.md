@@ -18,7 +18,7 @@
 📡 API reference (examples)
 🚀 Deployment 
 🔒 Security & disclaimers
-🤝 Contributing
+🤝 Contributing 
 📜 License & credits
 📬 Contact
 📝 Project overview
