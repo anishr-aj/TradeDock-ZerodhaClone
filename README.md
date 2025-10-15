@@ -11,7 +11,7 @@
 🛠️ Tech stack       
 🏗️ Architectures       
 ⚡ Getting started (local development) -       
-🔑 Environment variable    
+🔑 Environment variable     
 🗄️ Database setup & seed
  
 ✅ Running tests
