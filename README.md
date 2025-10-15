@@ -16,7 +16,7 @@
  
 ✅ Running tests
 📡 API reference (examples)
-🚀 Deployment 
+🚀 Deployment  
 🔒 Security & disclaimers
 🤝 Contributing 
 📜 License & credits
