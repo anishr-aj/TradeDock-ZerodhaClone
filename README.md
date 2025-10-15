@@ -4,7 +4,7 @@
 ⚠️ Built for learning & portfolio demo purposes only — NOT for real trading....  
 
 📑 Table of contents
- 
+  
 📝 Project overview  
 🌐 Live demo / Screenshots   
 ✨ Key features     
