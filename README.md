@@ -14,7 +14,7 @@
 🔑 Environment variable       
 🗄️ Database setup & seed  
   
-✅ Running tests
+✅ Running tests 
 📡 API reference (examples)
 🚀 Deployment  
 🔒 Security & disclaimers
