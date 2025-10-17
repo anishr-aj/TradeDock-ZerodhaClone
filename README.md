@@ -12,7 +12,7 @@
 🏗️ Architectures       
 ⚡ Getting started (local development) -        
 🔑 Environment variable       
-🗄️ Database setup & seed
+🗄️ Database setup & seed  
   
 ✅ Running tests
 📡 API reference (examples)
