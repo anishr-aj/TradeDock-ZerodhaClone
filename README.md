@@ -6,7 +6,7 @@
 📑 Table of contents
   
 📝 Project overview   
-🌐 Live demo / Screenshots   
+🌐 Live demo / Screenshots    
 ✨ Key features        
 🛠️ Tech stack           
 🏗️ Architectures          
