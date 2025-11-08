@@ -3,7 +3,7 @@
 💡 TradeDock is a full-stack, demo-grade trading platform inspired by Zerodha.  
 ⚠️ Built for learning & portfolio demo purposes only — NOT for real trading....  
    
-📑 Table of contents 
+📑 Table of contents  
    
 📝 Project overview     
 🌐 Live demo / Screenshots      
