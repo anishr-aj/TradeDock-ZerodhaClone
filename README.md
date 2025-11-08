@@ -9,7 +9,7 @@
 🌐 Live demo / Screenshots      
 ✨ Key features              
 🛠️ Tech stack             
-🏗️ Architectures           
+🏗️ Architectures     
 ⚡ Getting started (local development) -           
 🔑 Environment variable         
 🗄️ Database setup & seed   
